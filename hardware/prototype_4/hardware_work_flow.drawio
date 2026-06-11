@@ -1,0 +1,53 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="SdDfOKfy7VbADx_8no-V">
+    <mxGraphModel dx="988" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D3i2iStAxJhL1uZoumy9-6" edge="1" parent="1" source="D3i2iStAxJhL1uZoumy9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D3i2iStAxJhL1uZoumy9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Esp32&lt;br&gt;S3 N16R8&lt;br&gt;motherboard" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-3" edge="1" parent="1" source="D3i2iStAxJhL1uZoumy9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D3i2iStAxJhL1uZoumy9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="HC-05&lt;br&gt;Bluetooth Module" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="5v Power Regulation&lt;br&gt;circuit" vertex="1">
+          <mxGeometry height="60" width="140" x="430" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-8" edge="1" parent="1" source="D3i2iStAxJhL1uZoumy9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="D3i2iStAxJhL1uZoumy9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PCF8575&amp;nbsp;&lt;br&gt;GPIO Expander" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Solenoid&lt;br&gt;circuit" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-10" edge="1" parent="1" source="D3i2iStAxJhL1uZoumy9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D3i2iStAxJhL1uZoumy9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-11" edge="1" parent="1" source="D3i2iStAxJhL1uZoumy9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="D3i2iStAxJhL1uZoumy9-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="1S li-ion Battery&lt;br&gt;4200mah 11C" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-13" edge="1" parent="1" source="D3i2iStAxJhL1uZoumy9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="D3i2iStAxJhL1uZoumy9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D3i2iStAxJhL1uZoumy9-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=1;fontSize=19;" value="Hardware Connection Flow" vertex="1">
+          <mxGeometry height="20" width="260" x="390" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
